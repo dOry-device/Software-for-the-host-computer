@@ -1,0 +1,43 @@
+﻿Build started 2015/4/22 16:01:15.
+     1>Project "E:\dOry_2\Dory\Dory\Dory.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Dory.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         E:\programfiles\visual 2010\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IE:\programfiles\QT\5.2.0\msvc2010_opengl\include /I.\GeneratedFiles\Debug /IE:\programfiles\QT\5.2.0\msvc2010_opengl\include\QtCore /IE:\programfiles\QT\5.2.0\msvc2010_opengl\include\QtGui /IE:\programfiles\QT\5.2.0\msvc2010_opengl\include\QtWidgets /IE:\programfiles\QT\5.2.0\msvc2010_opengl\include\QtSql /IE:\programfiles\QT\5.2.0\msvc2010_opengl\include\QtSerialPort /IE:\programfiles\QT\5.2.0\msvc2010_opengl\include\QWT /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_SQL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TUISerial.cpp
+         TUISerial.cpp
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         E:\programfiles\visual 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\dOry_2\Dory\Dory\Output\\Dory.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\programfiles\QT\5.2.0\msvc2010_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Sqld.lib Qt5SerialPortd.lib QWTD.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Dory.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\dOry_2\Dory\Dory\Output\Dory.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\dOry_2\Dory\Dory\Output\Dory.lib" /MACHINE:X86 Debug\Dory.res
+         Debug\moc_TInterface.obj
+         Debug\moc_TUIChart.obj
+         Debug\moc_TUIMainWindow.obj
+         Debug\moc_TUISerial.obj
+         Debug\moc_TUITitleWidget.obj
+         Debug\moc_TUIToal.obj
+         Debug\moc_TUIToolButton.obj
+         Debug\qrc_dory.obj
+         Debug\main.obj
+         Debug\TCustomModel.obj
+         Debug\TInterface.obj
+         Debug\TUIChart.obj
+         Debug\TUIMainWindow.obj
+         Debug\TUIResource.obj
+         Debug\TUISerial.obj
+         Debug\TUITitleWidget.obj
+         Debug\TUIToal.obj
+         Debug\TUIToolButton.obj
+         Dory.vcxproj -> E:\dOry_2\Dory\Dory\Output\Dory.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\dOry_2\Dory\Dory\Output\\Dory.exe;#1" /manifest Debug\Dory.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Dory.unsuccessfulbuild".
+         Touching "Debug\Dory.lastbuildstate".
+     1>Done Building Project "E:\dOry_2\Dory\Dory\Dory.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.02

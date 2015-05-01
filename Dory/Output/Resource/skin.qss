@@ -1,0 +1,107 @@
+ .QPushButton{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 112, 107, 255), stop:0.994318 rgba(98, 192, 182, 255));
+	color:white;
+	border: 1px solid #50A3F0;
+	border-radius:5px;
+	min-height: 20px;
+	min-width: 70px;
+	
+}
+
+.QPushButton:hover{ 
+	background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+  border-radius:5px;
+  border: 1px solid #3C80B1;  
+  color:black;
+}
+
+.QPushButton:pressed{ 
+	background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(134, 198, 233, 255), stop:0.5 rgba(206, 234, 248, 255));
+  border-radius:5px;
+  border: 1px solid #5F92B2;  
+   color:black;
+} 
+
+
+QTableView
+{
+    border: transparent;
+    gridline-color: #6c6c6c;
+    background-color: #201F1F;
+}
+
+
+QTableView, QHeaderView
+{
+    border-radius: 0px;
+}
+
+QTableView::item:pressed, QListView::item:pressed, QTreeView::item:pressed  {
+    background: #78879b;
+    color: #FFFFFF;
+}
+
+QTableView::item:selected:active, QTreeView::item:selected:active, QListView::item:selected:active  {
+    background: #78879b;
+    color: #FFFFFF;
+}
+
+
+QHeaderView
+{
+    border: 1px transparent;
+    margin: 0px;
+    padding: 0px;
+}
+
+QHeaderView::section  {
+    background-color: #3A3939;
+    color: silver;
+    padding: 4px;
+    border: 1px solid #6c6c6c;
+    border-radius: 0px;
+    text-align: center;
+}
+
+QHeaderView::section::vertical::first, QHeaderView::section::vertical::only-one
+{
+    border-top: 1px solid #6c6c6c;
+}
+
+QHeaderView::section::vertical
+{
+    border-top: transparent;
+}
+
+QHeaderView::section::horizontal::first, QHeaderView::section::horizontal::only-one
+{
+    border-left: 1px solid #6c6c6c;
+}
+
+QHeaderView::section::horizontal
+{
+    border-left: transparent;
+}
+
+
+QHeaderView::section:checked
+ {
+    color: white;
+    background-color: #5A5959;
+ }
+
+
+QHeaderView::down-arrow {
+    image: url(Resource/down_arrow.png);
+}
+
+QHeaderView::up-arrow {
+    image: url(Resource/up_arrow.png);
+}
+
+
+QTableCornerButton::section {
+    background-color: #3A3939;
+    border: 1px solid #3A3939;
+    border-radius: 0px;
+}
